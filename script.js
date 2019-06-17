@@ -1,11 +1,10 @@
-let blocos = document.querySelectorAll("button");
+let caixa = document.querySelectorAll('div')
 
-function adicionarX(){
-    this.appendChild('X');
+function mudarCor(){
+    this.style.backgroundColor = "red";
+    this.innerHTML = 'X';
 }
 
-function adicionarO(){
-    this.appendChild('O');
+for(let itens in caixa){
+    caixa[itens].onclick = mudarCor;
 }
-
-
