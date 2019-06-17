@@ -1,69 +1,46 @@
-body{
+*{
     margin: 0;
-	background: #2ecc71;
+    padding: 0;
+}
+body{
+    background: #2ecc71;
+    font-family: 'Bungee Shade', cursive;
+}
+h1{
+    font-size: 33pt;
+    color: black;
 }
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
     flex-direction: column;
+    
 }
+aside{
+    width: 500px;
+    height: 400px;
 
-.linha1{
+}
+.linha{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 350px;
-    height: 120px;
+    width: 475px;
 }
 
-.linha1 div{
+.linha div{
     display: flex;
     justify-content: space-around;
     background-color: rgba(52, 73, 94,1.0);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
+    margin-bottom: 8px;
 }
 
-.linha2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 350px;
-    height: 120px;
-}
 
-.linha2 div{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(52, 73, 94,1.0);
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-}
-
-.linha3{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 350px;
-    height: 120px;
-}
-
-.linha3 div{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(52, 73, 94,1.0);
-    width: 100px;
-    height: 100px;
-    background-color: rgba(52, 73, 94,1.0);
-    cursor: pointer;
-}
-
-.linha3 div:hover{
+.linha div:hover{
     background-color: rgba(52, 73, 94,0.7);
-
 }
